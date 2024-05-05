@@ -1,0 +1,167 @@
+/* Header Area */
+.header_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #ffffff;
+}
+
+/* Main Menu */
+.main_menu {
+    width: 100%;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex; /* Ensure navbar items are in a single line */
+    justify-content: center; /* Center the navbar items */
+    align-items: center;
+    width: 100%;
+    
+}
+
+.navbar .nav .nav-item {
+    margin: 0 15px; /* Adjust margins between navbar items */
+}
+
+.navbar .nav .nav-item .nav-link {
+    font: 500 14px/100px "Rubik", sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0;
+    display: inline-block;
+    position: relative; /* Added position relative */
+}
+
+.navbar .nav .nav-item .nav-link:after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjust as needed */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #4458dc; /* Changed color */
+    transition: width 0.3s ease; /* Added transition */
+}
+
+.navbar .nav .nav-item:hover .nav-link:after,
+.navbar .nav .nav-item.active .nav-link:after {
+    width: 100%; /* Expand on hover or when active */
+}
+
+.navbar .nav .nav-item.submenu {
+    position: relative;
+}
+
+.navbar .nav .nav-item.submenu ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease; /* Added transition */
+}
+
+.navbar .nav .nav-item.submenu:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .nav .nav-item.submenu ul .nav-item {
+    border-bottom: 1px solid #ededed;
+}
+
+.navbar .nav .nav-item.submenu ul .nav-item:last-child {
+    border-bottom: none;
+}
+
+.navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    line-height: 45px;
+    color: #000000;
+    padding: 0 30px;
+    display: block;
+    text-transform: capitalize;
+}
+
+/* Navbar Fixed */
+.header_area.navbar_fixed .main_menu {
+    transform: translateY(70px);
+    background: #ffffff;
+    transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+
+.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: 70px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .navbar .nav .nav-item {
+        margin: 0 10px; /* Adjust margins for smaller screens */
+    }
+}
+.logow{
+    width: 30%;
+}
+
+
+.primary_btn {
+	display: inline-block;
+	color: #fff;
+	letter-spacing: 0px;
+    text-decoration: none;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 46px;
+	outline: none !important;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+		radial-gradient(circle at top left, #4458dc, #854fee);
+	border: double 2px transparent;
+	box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+    transition: all 0.6s;
+}
+
+.primary_btn span {
+	padding: 0 42px;
+}
+.primary_btn.tr-bg {
+	background-image: linear-gradient(#ffffff, #ffffff),
+		radial-gradient(circle at top left, #4458dc, #854fee);
+	border: 2px solid transparent;
+	color: #222222;
+	box-shadow: none;
+}
+.primary_btn.tr-bg:hover {
+	background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%),
+		radial-gradient(circle at top left, #4458dc, #854fee);
+	border: double 2px transparent;
+	color: #ffffff;
+	box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+.primary_btn:hover {
+	background-image: linear-gradient(#ffffff, #ffffff),
+		radial-gradient(circle at top left, #4458dc, #854fee);
+	border: 2px solid #6c757d;
+	color: #222222;
+	box-shadow: none;
+	background-clip: border-box;
+}
