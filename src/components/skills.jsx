@@ -13,7 +13,7 @@ function Skills() {
                 <div className="row justify-content-center">
                     <div className="col-lg-8 text-center">
                         <div className="main_title">
-                            <h2>service offers</h2>
+                            <h2>Mes competence</h2>
                             <p>
                                 Is give may shall likeness made yielding spirit a itself together created
                                 after sea <br /> is in beast beginning signs open god you're gathering ithe

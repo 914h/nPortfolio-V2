@@ -1,7 +1,7 @@
 import React from "react";
 import './css/portfolio.css'
-import p1 from '../assets/portfolio/p1.jpg'
-import p2 from '../assets/portfolio/p2.jpg'
+import p1 from '../assets/portfolio/p33.png'
+import p2 from '../assets/portfolio/p44.png'
 import p3 from '../assets/portfolio/p3.jpg'
 import p4 from '../assets/portfolio/p4.jpg'
 import Aos from 'aos'
@@ -15,8 +15,8 @@ function Skills() {
                         <div className="col-lg-12">
                             <div className="main_title text-left">
                                 <h2>
-                                    quality work <br />
-                                    Recently done project
+                                    Portfolio <br />
+                                    Recently done projects
                                 </h2>
                             </div>
                         </div>
@@ -32,27 +32,9 @@ function Skills() {
                                             </div>
                                         </a>
                                     </div>
-                                    <div className="single_portfolio">
-                                        <img className="img-fluid" src={p1} alt="" />
-                                        <div className="overlay"></div>
-                                        <a href="img/portfolio/p1.jpg" className="img-gal">
-                                            <div className="icon">
-                                                <span className="lnr lnr-cross"></span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div className="single_portfolio">
-                                        <img className="img-fluid" src={p1} alt="" />
-                                        <div className="overlay"></div>
-                                        <a href="img/portfolio/p1.jpg" className="img-gal">
-                                            <div className="icon">
-                                                <span className="lnr lnr-cross"></span>
-                                            </div>
-                                        </a>
-                                    </div>
                                     <div className="short_info">
-                                        <h4><a href="portfolio-details.html">minimal design</a></h4>
-                                        <p>Animated, portfolio</p>
+                                        <h4><a href="portfolio-details.html">EduTasker</a></h4>
+                                        <p>Backend App for School management</p>
                                     </div>
                                 </div>
                                 <div className="portfolio_box">
@@ -66,8 +48,8 @@ function Skills() {
                                         </a>
                                     </div>
                                     <div className="short_info">
-                                        <h4><a href="portfolio-details.html">minimal design</a></h4>
-                                        <p>Animated, portfolio</p>
+                                        <h4><a href="portfolio-details.html">KENZAEYES</a></h4>
+                                        <p>Backend App for Optique Management</p>
                                     </div>
                                 </div>
 
