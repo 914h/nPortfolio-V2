@@ -2,7 +2,7 @@ import React from "react";
 import './css/navbar.css'
 import './css/homebanner.css'
 import logo from '../assets/img/logo.png'
-import homeimg from '../assets/img/banner/houssam.png'
+import homeimg from '../assets/img/4.png'
 import anaa from '../assets/img/ana.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -53,7 +53,7 @@ function Home() {
                             </div>
                             <div className="col-lg-5">
                                 <div className="home_right_img">
-                                    <img src={homeimg} width="111%" alt="" />
+                                    <img src={homeimg} width="118%"  alt="" />
                                 </div>
                             </div>
                         </div>

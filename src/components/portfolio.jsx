@@ -2,7 +2,7 @@ import React from "react";
 import './css/portfolio.css'
 import p1 from '../assets/portfolio/p33.png'
 import p2 from '../assets/portfolio/p44.png'
-import p3 from '../assets/portfolio/p3.jpg'
+import p3 from '../assets/portfolio/CAB-DTR.png'
 import p4 from '../assets/portfolio/p4.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -24,7 +24,7 @@ function Skills() {
                             <div className="row portfolio-grid justify-content-center">
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                        <img className="img-fluid" src={p1} alt="" />
+                                        <img className="img-fluid" id="portimg"  src={p1} alt="" />
                                         <div className="overlay"></div>
                                         <a href="img/portfolio/p1.jpg" className="img-gal">
                                             <div className="icon">
@@ -34,12 +34,14 @@ function Skills() {
                                     </div>
                                     <div className="short_info">
                                         <h4><a href="portfolio-details.html">EduTasker</a></h4>
-                                        <p>Backend App for School management</p>
+                                        <p>School System Management</p>
+                                        
                                     </div>
+
                                 </div>
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                        <img className="img-fluid" src={p2} alt="" />
+                                        <img className="img-fluid" id="portimg" src={p2} alt="" />
                                         <div className="overlay"></div>
                                         <a href="img/portfolio/p1.jpg" className="img-gal">
                                             <div className="icon">
@@ -49,13 +51,13 @@ function Skills() {
                                     </div>
                                     <div className="short_info">
                                         <h4><a href="portfolio-details.html">KENZAEYES</a></h4>
-                                        <p>Backend App for Optique Management</p>
+                                        <p>Optique System Management</p>
                                     </div>
                                 </div>
 
                                 <div className="portfolio_box">
                                     <div className="single_portfolio">
-                                        <img className="img-fluid" src={p3} alt="" />
+                                        <img className="img-fluid" id="portimg" src={p3} alt="" />
                                         <div className="overlay"></div>
                                         <a href="img/portfolio/p1.jpg" className="img-gal">
                                             <div className="icon">
@@ -63,14 +65,15 @@ function Skills() {
                                             </div>
                                         </a>
                                     </div>
-                                    <div className="short_info">
-                                        <h4><a href="portfolio-details.html">minimal design</a></h4>
-                                        <p>Animated, portfolio</p>
+                                    <div className="short_info"> 
+                                        <h4><a href="portfolio-details.html">CABDTR</a></h4>
+                                        <p>Cabinet Dentiste Management</p>
                                     </div>
                                 </div>
                             </div>
                             {/* Add more portfolio items here */}
                         </div>
+                        
                     </div>
                 </div>
             </section>

@@ -187,3 +187,24 @@
 .img-fluid{
     width: 55%;
 }
+
+#portimg{
+    width: 55%;
+    border-radius: 15%;
+    box-shadow:
+    0.5px 2.4px 2.2px rgba(0, 0, 0, 0.015),
+    1.3px 6.4px 5.3px rgba(0, 0, 0, 0.02),
+    2.6px 12.7px 10px rgba(0, 0, 0, 0.024),
+    4.7px 22.9px 17.9px rgba(0, 0, 0, 0.026),
+    8.5px 41.2px 33.4px rgba(0, 0, 0, 0.03),
+    16px 78px 80px rgba(0, 0, 0, 0.04)
+  ;
+}
+
+.short_info{
+    margin-right: 60%;
+}
+
+ .about_area {
+    margin-top: 10%;
+}
