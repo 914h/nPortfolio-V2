@@ -25,29 +25,29 @@ function Skills() {
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p1} alt="" />
-                            <h4>Wp developing</h4>
-                            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                            <h4>WEB  developing</h4>
+                            <p>Un développeur web compétent doit être à l'aise avec plusieurs langages de programmation Du front/Back End</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p2} alt="" />
-                            <h4>UI/ux design</h4>
-                            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                            <h4>Frameworks</h4>
+                            <p>En plus des langages de base, il est important de maîtriser les frameworks et bibliothèques populaires tels que React.js, Angular.js ou Vue.js pour le développement front-end, ainsi que des frameworks back-end comme laravel, Django ou express.js ...</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p3} alt="" />
                             <h4>Web design</h4>
-                            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                            <p>Un concepteur web compétent doit avoir une compréhension approfondie des principes de design tels que la hiérarchie visuelle, la typographie, la couleur, l'équilibre et la convivialité.</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p4} alt="" />
-                            <h4>seo optimize</h4>
-                            <p>Creeping for female light years that lesser can't evening heaven isn't bearing tree</p>
+                            <h4>Compréhension des bases de données </h4>
+                            <p> Un développeur web doit être capable de concevoir et de gérer des bases de données pour stocker et récupérer les données utilisées par les applications web. Des connaissances sur des technologies de bases de données telles que MySQL, MongoDB ou PostgreSQL sont indispensables.</p>
                         </div>
                     </div>
                 </div>

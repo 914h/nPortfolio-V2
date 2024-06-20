@@ -28,11 +28,9 @@ function About() {
 									Introduce about <br />
 									myself</h2>
 								<p>
-									Houssam est un professionnel dévoué et compétent dans le domaine de l'ingénierie informatique. Son expertise lui permet de fournir des solutions logicielles et matérielles de haute qualité.
-									 Avec une passion pour la technologie et une attention méticuleuse aux détails, Houssam est capable de développer et de mettre en œuvre avec précision des algorithmes et des systèmes complexes.
-								</p>
+								Bonjour, je suis Aoulad Abdennour Houssam, un étudiant en deuxième année à l'Institut Supérieur de Génie Informatique. Je suis passionné par la technologie et je souhaite partager mes projets réalisés cette année. 
 								<p>
-								Son expérience et son professionnalisme garantissent des solutions logicielles efficaces et fiables qui répondent aux exigences souhaitées. Faites confiance à Houssam pour tous vos besoins en ingénierie informatique et découvrez la puissance de la technologie innovante.
+								Avec mon dévouement et mon attention méticuleuse aux détails, j'ai développé des solutions logicielles et matérielles de haute qualité. Faites confiance à mon expertise pour découvrir la puissance de la technologie innovante.</p>
 
 								</p>
 								<a className="primary_btn" href="#"><span>Download CV</span></a>

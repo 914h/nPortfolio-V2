@@ -2,7 +2,7 @@ import React from "react";
 import './css/navbar.css'
 import './css/homebanner.css'
 import logo from '../assets/img/logo.png'
-import homeimg from '../assets/img/4.png'
+import homeimg from '../assets/img/taqq.png'
 import anaa from '../assets/img/ana.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
