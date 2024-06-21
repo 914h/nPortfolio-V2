@@ -1,5 +1,6 @@
 .portfolio_area {
-    padding-bottom: 120px;
+    margin-top: 200px;
+    padding-bottom: 50px;
 }
 
 @media (max-width: 991px) {
@@ -189,7 +190,8 @@
 }
 
 #portimg{
-    width: 55%;
+    width: 50%;
+    margin-top: 10%;
     border-radius: 15%;
     box-shadow:
     0.5px 2.4px 2.2px rgba(0, 0, 0, 0.015),
@@ -202,7 +204,7 @@
 }
 
 .short_info{
-    margin-right: 60%;
+    margin-right: 10%;
 }
 
  .about_area {
