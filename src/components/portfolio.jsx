@@ -4,19 +4,19 @@ import p1 from '../assets/portfolio/p33.png'
 import p2 from '../assets/portfolio/p44.png'
 import p3 from '../assets/portfolio/CAB-DTR.png'
 import p4 from '../assets/portfolio/p4.jpg'
-import p5 from '../assets/img/M.png'
+import p5 from '../assets/portfolio/SecureVaultLogo.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 function Skills() {
     return (
         <>
-<section className="portfolio_area" id="portfolio">
+<section id="portfolio_area" className="portfolio_area">
     <div className="container" data-aos="fade-up">
         <div className="row">
             <div className="col-lg-12">
                 <div className="main_title text-left">
                     <h2>
-                        Portfolio <br />
+
                         Recently done projects
                     </h2>
                 </div>
@@ -65,8 +65,8 @@ function Skills() {
                         </a>
                     </div>
                     <div className="short_info">
-                        <h4><a href="#">MoShop</a></h4>
-                        <p>Store Management System</p>
+                        <h4><a href="#">Secure Vault</a></h4>
+                        <p>Password Management System</p>
                     </div>
                 </div>
 

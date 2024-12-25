@@ -25,29 +25,42 @@ function Skills() {
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p1} alt="" />
-                            <h4>WEB  developing</h4>
-                            <p>Un développeur web compétent doit être à l'aise avec plusieurs langages de programmation Du front/Back End</p>
+                            <h4>Développement Full-Stack </h4>
+                            <p>- Expertise en technologies front-end et back-end </p>
+                            <p>- Développement d'applications web performantes et évolutives</p>
+                            <p>- Intégration des APIs RESTful et mise en place de systèmes d'authentification sécurisés</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p2} alt="" />
-                            <h4>Frameworks</h4>
-                            <p>En plus des langages de base, il est important de maîtriser les frameworks et bibliothèques populaires tels que React.js, Angular.js ou Vue.js pour le développement front-end, ainsi que des frameworks back-end comme laravel, Django ou express.js ...</p>
+                            <h4>Frameworks & Outils </h4>
+                            <p>
+                                - Maîtrise des frameworks modernes Back-End : <br/> Spring Boot, ExpressJs, Laravel <br/><br/>
+                                - Maîtrise des frameworks modernes Front-End : <br/> React.js, Angular <br/>
+
+                            </p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p3} alt="" />
-                            <h4>Web design</h4>
-                            <p>Un concepteur web compétent doit avoir une compréhension approfondie des principes de design tels que la hiérarchie visuelle, la typographie, la couleur, l'équilibre et la convivialité.</p>
+                            <h4>Design & Interface</h4>
+                            <p>
+                                Création d'interfaces utilisateur responsives <br/>
+                                Application des principes de l'UX/UI design
+                            </p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6">
                         <div className="feature_item">
                             <img src={p4} alt="" />
-                            <h4>Compréhension des bases de données </h4>
-                            <p> Un développeur web doit être capable de concevoir et de gérer des bases de données pour stocker et récupérer les données utilisées par les applications web. Des connaissances sur des technologies de bases de données telles que MySQL, MongoDB ou PostgreSQL sont indispensables.</p>
+                            <h4>Bases de Données </h4>
+                            <p>
+                                Conception et gestion de bases de données MySQL, MongoDB <br/>
+                                Optimisation des requêtes et modélisation des données
+
+                            </p>
                         </div>
                     </div>
                 </div>

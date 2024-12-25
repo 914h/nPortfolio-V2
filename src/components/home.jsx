@@ -27,9 +27,11 @@ function Home() {
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav menu_nav justify-content-end">
                                 <li className="nav-item active"><a className="nav-link" href="#">Home</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">About</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Services</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#">Portfolio</a></li>
+                                <li className="nav-item"><a className="nav-link" href="#about_area">About Me</a></li>
+                                <li className="nav-item"><a className="nav-link" href="#portfolio_area">Portfolio</a>
+                                </li>
+
+                                <li className="nav-item"><a className="nav-link" href="">Services</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
                             </ul>
                         </div>
@@ -42,12 +44,12 @@ function Home() {
                         <div className="row">
                             <div className="col-lg-7">
                                 <div className="banner_content">
-                                    <h3 className="text-uppercase">Salut</h3>
-                                    <h1 className="text-uppercase">I'm Houssam</h1>
-                                    <h5 className="text-uppercase">Genie info developer</h5>
+                                    <h3 className="text-uppercase">Abdennour</h3>
+                                    <h1 className="text-uppercase">Houssam</h1>
+                                    <h5 className="text-uppercase">Développeur informatique fullstack</h5>
                                     <div className="d-flex align-items-center">
                                         <a className="primary_btn" href="#"><span>Hire Me</span></a>
-                                        <a className="primary_btn tr-bg" href="#"><span>Get CV</span></a>
+                                        <a className="primary_btn tr-bg" href="#"><span>Installer CV</span></a>
                                     </div>
                                 </div>
                             </div>
