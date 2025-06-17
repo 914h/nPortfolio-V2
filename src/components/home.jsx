@@ -2,8 +2,7 @@ import React from "react";
 import './css/navbar.css'
 import './css/homebanner.css'
 import logo from '../assets/img/logo.png'
-import homeimg from '../assets/img/taqq.png'
-import anaa from '../assets/img/ana.png'
+import homeimg from '../assets/img/hussam.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 function Home() {
@@ -26,11 +25,9 @@ function Home() {
 
                         <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                             <ul className="nav navbar-nav menu_nav justify-content-end">
-                                <li className="nav-item active"><a className="nav-link" href="#">Home</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#about_area">About Me</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#portfolio_area">Portfolio</a>
-                                </li>
-
+                            <li className="nav-item active"><a className="nav-link" href="#">Accueil</a></li>
+                                <li className="nav-item"><a className="nav-link" href="#about_area">À propos</a></li>
+                                <li className="nav-item"><a className="nav-link" href="#portfolio_area">Portfolio</a></li>
                                 <li className="nav-item"><a className="nav-link" href="">Services</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#">Contact</a></li>
                             </ul>
@@ -48,14 +45,14 @@ function Home() {
                                     <h1 className="text-uppercase">Houssam</h1>
                                     <h5 className="text-uppercase">Développeur informatique fullstack</h5>
                                     <div className="d-flex align-items-center">
-                                        <a className="primary_btn" href="#"><span>Hire Me</span></a>
-                                        <a className="primary_btn tr-bg" href="#"><span>Installer CV</span></a>
+                                        <a className="primary_btn" href="#"><span>Contactez-moi</span></a>
+                                        <a className="primary_btn tr-bg" href="#"><span>Télécharger le CV</span></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-5">
                                 <div className="home_right_img">
-                                    <img src={homeimg} width="118%"  alt="" />
+                                    <img src={homeimg} alt="" />
                                 </div>
                             </div>
                         </div>

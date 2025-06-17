@@ -208,7 +208,20 @@ h3 , h1 , h5{
 }
 
 .home_banner_area .banner_inner .home_right_img {
-  padding-top: 197px;
+  padding-top: 200px;
+  margin-bottom: 120px;
+}
+
+.home_banner_area .banner_inner .home_right_img img {
+  border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.4), 0 2px 8px 0 rgba(0,0,0,0.2);
+  border: 6px solid #fff;
+  object-fit: cover;
+  width: 800px;
+  height: 500px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 @media (max-width: 1480px) {

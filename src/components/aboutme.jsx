@@ -15,7 +15,9 @@ import {
 	FaVuejs,
 	FaLaravel,
 	FaPython,
-	FaJava
+	FaJava,
+	FaLinkedin,
+	FaFlask
 } from 'react-icons/fa';
 import {
 	SiTypescript,
@@ -25,8 +27,8 @@ import {
 	SiTailwindcss,
 	SiMongodb,
 	SiPhp,
-	SiC,
-	SiExpress
+	SiExpress,
+	SiC
 } from 'react-icons/si';
 
 function SiCsharp() {
@@ -52,25 +54,19 @@ function About() {
 						<div className="offset-lg-1 col-lg-5 space">
 							<div className="main_title text-left">
 								<h2>
-									let’s <br/>
-									Introduce about <br/>
-									myself
+									À propos de moi
 								</h2>
 								<p>
-									Bonjour,
-									Je m'appelle Houssam, et je suis étudiant en informatique. J'apprends actuellement
-									plusieurs technologies comme Java, Spring Boot, Python, C#, Laravel, React, et
-									d'autres outils de développement.
+									Je m'appelle Houssam et je suis étudiant en informatique passionné par le développement logiciel. Actuellement, je me forme et me perfectionne sur différentes technologies telles que Java, Spring Boot, Python, C#, Laravel, React, et bien d'autres outils modernes du développement web et logiciel.
 								</p>
 								<p>
-									J'aime travailler sur des projets, petits ou grands, pour améliorer mes compétences
-									et explorer différentes facettes de la programmation.
+									J'apprécie particulièrement travailler sur des projets variés, qu'ils soient personnels ou collaboratifs, afin de renforcer mes compétences techniques, découvrir de nouveaux domaines et relever des défis stimulants.
 								</p>
 								<p>
-									Merci de m'avoir permis de me présenter !
+									N'hésitez pas à me contacter pour toute opportunité de collaboration ou d'échange professionnel.
 								</p>
 								<h2>
-									TECHNOLOGIES / Skills
+									Technologies / Compétences
 								</h2>
 								<div className="icons-container mt-4">
 										<div className="icon-box" style={{color: "#E34F26"}}><FaHtml5/></div>
@@ -89,7 +85,21 @@ function About() {
 									<div className="icon-box" style={{color: "#06B6D4"}}><SiTailwindcss/></div>
 									<div className="icon-box" style={{color: "#7952B3"}}><FaBootstrap/></div>
 								</div>
-								<a className="primary_btn" href="#"><span>Installer CV</span></a>
+								<div style={{display: 'flex', justifyContent: 'center', gap: '12px', marginTop: '38px'}}>
+									<a className="primary_btn tr-bg" href="#"><span>Télécharger le CV</span></a>
+									<a className="primary_btn tr-bg" href="https://www.linkedin.com/in/abdennour-houssam/" target="_blank" rel="noopener noreferrer" style={{display: 'inline-flex', alignItems: 'center'}}>
+										<span style={{display: 'flex', alignItems: 'center'}}>
+											<FaLinkedin style={{marginRight: '6px', color: '#0A66C2', fontSize: '18px'}} />
+											LinkedIn
+										</span>
+									</a>
+									<a className="primary_btn tr-bg" href="https://github.com/914" target="_blank" rel="noopener noreferrer" style={{display: 'inline-flex', alignItems: 'center'}}>
+										<span style={{display: 'flex', alignItems: 'center'}}>
+											<svg style={{marginRight: '6px'}} xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#222" viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+											GitHub
+										</span>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
