@@ -6,6 +6,9 @@ import p3 from '../assets/portfolio/CAB-DTR.png'
 import p4 from '../assets/portfolio/p4.jpg'
 import p5 from '../assets/portfolio/SecureVaultLogo.png'
 import p6 from '../assets/portfolio/immob.png'
+import p7 from '../assets/portfolio/care.png'
+import p8 from '../assets/portfolio/images.png'
+import p9 from '../assets/portfolio/mm.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { FaReact, FaLaravel, FaJava, FaPython } from 'react-icons/fa';
@@ -27,7 +30,7 @@ const projects = [
     tech: [<div className="portfolio-tech-icon" key="react"><FaReact style={{color:'#61DAFB'}} /></div>, <div className="portfolio-tech-icon" key="laravel"><FaLaravel style={{color:'#F05340'}} /></div>]
   },
   {
-    image: p3,
+    image: p7,
     name: 'Medical App',
     title: 'Application médicale (React & Spring Boot)',
     description: "Application web pour la gestion des dossiers médicaux, rendez-vous et suivi des patients.",
@@ -48,14 +51,14 @@ const projects = [
     tech: [<div className="portfolio-tech-icon" key="php"><SiPhp style={{color:'#777BB4'}} /></div>]
   },
   {
-    image: p5,
+    image: p8,
     name: 'Reddit Forum',
     title: 'Forum communautaire (Flask)',
     description: "Forum de discussion inspiré de Reddit, développé avec Flask pour l'échange et le partage d'idées.",
     tech: [<div className="portfolio-tech-icon" key="python"><FaPython style={{color:'#3088de'}} /></div>, <div className="portfolio-tech-icon" key="flask"><SiFlask style={{color:'#000'}} /></div>]
   },
   {
-    image: p2,
+    image: p9,
     name: 'Gestion de Stock',
     title: 'Application C# (Vente & Stock)',
     description: "Logiciel de gestion des ventes et des stocks développé en C# pour les petites entreprises.",
